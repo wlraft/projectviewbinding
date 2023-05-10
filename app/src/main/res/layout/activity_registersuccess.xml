@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistersuccessActivity">
+
+    <ImageView
+        android:id="@+id/iv_regsuccess"
+        android:layout_width="228dp"
+        android:layout_height="228dp"
+        android:layout_marginTop="154dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/regsuccess"/>
+
+    <TextView
+        android:id="@+id/tv_regsuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Berhasil"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/iv_regsuccess"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_loginsuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:layout_below="@id/tv_regsuccess"
+        android:layout_marginTop="45dp"
+        android:layout_marginHorizontal="40dp" />
+
+
+</RelativeLayout>
